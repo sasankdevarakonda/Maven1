@@ -1,3 +1,7 @@
+package unCheckedException;
+
+import unCheckedException.WifiRepository;
+
 public class WifiService {
     public int Wifi(String password){
         try {

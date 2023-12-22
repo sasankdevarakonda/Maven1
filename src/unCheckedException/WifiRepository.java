@@ -1,3 +1,8 @@
+package unCheckedException;
+
+import unCheckedException.Enumcode;
+import unCheckedException.InvalidpasswordException;
+
 public class WifiRepository {
 
     public String wifi(String password){

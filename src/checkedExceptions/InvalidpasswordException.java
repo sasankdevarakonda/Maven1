@@ -1,4 +1,6 @@
-public class InvalidpasswordException extends RuntimeException{
+package checkedExceptions;
+
+public class InvalidpasswordException extends Exception {
     private String errorCode;
 
     public InvalidpasswordException(String password,String message){

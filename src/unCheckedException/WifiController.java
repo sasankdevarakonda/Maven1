@@ -1,3 +1,7 @@
+package unCheckedException;
+
+import unCheckedException.InvalidpasswordException;
+
 public class WifiController {
     public int wifi(String password){
        try{
