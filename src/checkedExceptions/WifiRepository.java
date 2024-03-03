@@ -8,7 +8,7 @@ public class WifiRepository {
         if(password.equalsIgnoreCase(ExsistngPassword)){
             System.out.println("Wifi Connected");
         }else{
-            throw new InvalidpasswordException(Enumcode.Enter_Wrong_Password.toString(),"Enter wrong Password");
+            throw new InvalidpasswordException(Enumcode.Enter_Wrong_Password.toString()," ");
         }
         return ExsistngPassword;
     }
